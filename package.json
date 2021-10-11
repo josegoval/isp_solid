@@ -1,0 +1,12 @@
+{
+  "name": "srp_solid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "josegoval <josegovalmusic@gmail.com>",
+  "license": "MIT",
+
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  }
+}
