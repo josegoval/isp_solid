@@ -1,8 +1,7 @@
-import { Animal } from "./animal";
+import { Barker } from "./interfaces/barker";
+import { Runner } from "./interfaces/runner";
 
-class Dog implements Animal {
-    fly() { }
-
+class Dog implements Runner, Barker {
     run() {
         console.log("Dog is running");
     }
